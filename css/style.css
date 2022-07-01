@@ -1,0 +1,228 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+    height: 50px;
+    /* * */
+}
+nav {
+position: fixed;
+/* * */
+width: 100%;
+/* * */
+height: 50px;
+background-color: #212121;
+z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+    
+    
+ }
+ .menu .menu_link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+ }
+ .menu .menu_item {
+     border-right: 2px dotted black;
+     padding-right: 42px;
+ }
+ .subheader{
+    position: absolute;
+    top: 50px;
+    /* * */
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0,0.6);
+    
+
+ }
+ .header_bg{
+     min-height: 800px;
+     background-image: url(../img/car_bg.png);
+ }
+ .logo{
+     margin-top: 20px;
+     max-width: 100%;
+ }
+ .logo_text {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 250;
+    font-family: "Roboto";
+    margin-top: 7px;
+ }
+ .subheader_call{
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: right;
+    margin-top: 24px;
+    
+    
+ }
+ .subheader_phone {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+     display: block;
+     text-align: right;
+ }
+ .subheader_btn {
+    background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    height: 46px;
+    width: 173px;
+    margin-top: 19px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 0px rgba(0, 0, 0, 0.21));
+    text-transform:  uppercase;
+}
+.promo {
+    min-height: 666px;
+}
+.promo_header {
+    font-size: 68px;   
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 60px;
+    margin-top: 135px;
+}
+.promo_subheader {
+    font-size: 41px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 36px;
+}
+.promo_descr {
+    font-size: 19px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 25px;
+}
+.promo_btn {
+    background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    height: 67px;
+    width: 261px;
+    margin-top: 121px;
+    margin-left: 400px;
+    font-size: 18px;
+    line-height: 68px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 0px rgba(0, 0, 0, 0.21));
+    text-transform: uppercase;
+}
+.benefits {
+    min-height: 900px;
+    background-color:#ffffff;
+    padding: 71px 0 65px 0;
+}
+.label {
+display: block;
+
+width: 112px;
+height: 24px;
+background-color: #000000;
+font-size: 11px;
+color: #ffffff;
+font-weight: 250;
+font-family: "Roboto";
+text-align: center;
+text-transform: uppercase;
+padding-top: 4px;
+margin-left: 585px;
+margin-top: 72px;
+}
+.title {
+    font-size: 38px;
+    line-height: 48px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.benefits_rigle {
+
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+margin-right: 26px;
+flex: 0 0 113px;
+width: 113px;
+height: 113px;
+background-color: #1eacc7;
+float: left;
+
+
+}
+.benefits_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.benefits_var {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 35px;
+}
+.benefits_disc{
+ min-width: 343px;
+    margin-left: 23px;
+ 
+}
+.benefits_subheader {
+  
+    font-size: 17px;
+    color: #1eacc7;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: left;
+    margin-left: 23px;
+}
+.benefits_text {
+   
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: left;
+    margin-left: 23px;
+    padding: 0px;
+}
+.kol-2 {
+    margin-top: 20px;
+}
